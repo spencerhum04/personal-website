@@ -5,7 +5,6 @@ import About from "./About";
 import Projects from "./Projects";
 import Education from "./Education";
 import Contact from "./Contact";
-import Button from "./Button";
 
 export {
   Navbar,
@@ -15,5 +14,4 @@ export {
   Projects,
   Education,
   Contact,
-  Button,
 };

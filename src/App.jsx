@@ -1,6 +1,6 @@
 import styles from './style';
 
-import { Navbar, Hero, About, Education, Projects, Footer } from './components';
+import { Navbar, Hero, About, Education, Projects, Contact, Footer } from './components';
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -21,6 +21,7 @@ const App = () => (
         <About />
         <Education />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     </div>
