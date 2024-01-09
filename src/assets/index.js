@@ -1,6 +1,6 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
-import gitlogo from "./gitlogo.png";
+import githublogo from "./githublogo.png";
 import linklogo from "./linklogo.png";
 import linkicon from "./linkicon.png";
 import schoollogo from "./schoollogo.png"
@@ -23,11 +23,13 @@ import nodejslogo from "./nodejslogo.png"
 import tailwindlogo from "./tailwindlogo.png"
 import linuxlogo from "./linuxlogo.png"
 import homejan from "./homejan.png"
+import bashlogo from "./bashlogo.png"
+import gitlogo from "./gitlogo.png"
 
 export {
   menu,
   close,
-  gitlogo,
+  githublogo,
   linklogo,
   linkicon,
   schoollogo,
@@ -50,4 +52,6 @@ export {
   tailwindlogo,
   linuxlogo,
   homejan,
+  bashlogo,
+  gitlogo,
 };

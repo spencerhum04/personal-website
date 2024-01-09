@@ -1,4 +1,4 @@
-import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, homejan  } from "../assets";
+import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, homejan, bashlogo, gitlogo  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,6 +50,11 @@ export const languages = [
     icon: csslogo,
     title: "CSS",
   },
+  {
+    id: "language-7",
+    icon: bashlogo,
+    title: "Bash",
+  },
 ];
 
 export const tools = [
@@ -72,6 +77,11 @@ export const tools = [
     id: "tool-4",
     icon: linuxlogo,
     title: "Linux",
+  },
+  {
+    id: "tool-5",
+    icon: gitlogo,
+    title: "Git",
   },
 ];
 

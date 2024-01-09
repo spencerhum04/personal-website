@@ -1,5 +1,5 @@
 import styles from '../style';
-import { schoollogo, linkicon, gitlogo, linklogo, rightarrowicon } from '../assets';
+import { schoollogo, linkicon, githublogo, linklogo, rightarrowicon } from '../assets';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -25,7 +25,7 @@ const Hero = () => (
           <img src={rightarrowicon} className="w-4 h-4 ml-6 flex" />
         </a>
         <a href="https://github.com/spencerhum04" target="_blank" rel="noopener noreferrer" className="bg-cyan-300 hover:bg-cyan-400 border border-cyan-200 hover:border-transparent py-4 px-4 rounded-lg mr-4">
-          <img src={gitlogo} className="w-6 h-6" />
+          <img src={githublogo} className="w-6 h-6" />
         </a>
         <a href="https://www.linkedin.com/in/spencer-hum/" target="_blank" rel="noopener noreferrer" className="bg-cyan-300 hover:bg-cyan-400 border border-cyan-200 hover:border-transparent py-4 px-4 rounded-lg mr-4">
           <img src={linklogo} className="w-6 h-6" />
