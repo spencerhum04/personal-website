@@ -25,6 +25,8 @@ import linuxlogo from "./linuxlogo.png"
 import homejan from "./homejan.png"
 import bashlogo from "./bashlogo.png"
 import gitlogo from "./gitlogo.png"
+import sh from "./sh.png"
+import spencerlogo from "./spencerlogo.png"
 
 export {
   menu,
@@ -54,4 +56,6 @@ export {
   homejan,
   bashlogo,
   gitlogo,
+  sh,
+  spencerlogo,
 };
