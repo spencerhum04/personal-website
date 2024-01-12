@@ -7,14 +7,14 @@ import { Navbar, Hero, About, Education, Projects, Contact, Footer } from './com
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="bg-primary w-full overflow-hidden">
-        <div className={`${styles.paddingX} ${styles.flexCenter} fixed`}>
+      <div className="bg-white w-full overflow-hidden">
+        <div className={`${styles.flexCenter} fixed`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
         </div>
 
-        <div className={`bg-primary ${styles.flexStart}`} style={{ marginTop: '80px' }}>
+        <div className={`bg-primary ${styles.flexStart}`} style={{ marginTop: '10vh' }}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>
