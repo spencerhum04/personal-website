@@ -2,7 +2,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import githublogo from "./githublogo.png";
 import linklogo from "./linklogo.png";
-import linkicon from "./linkicon.png";
 import schoollogo from "./schoollogo.png"
 import badmintonclublogo from "./badmintonclublogo.png"
 import climbingclublogo from "./climbingclublogo.png"
@@ -33,7 +32,6 @@ export {
   close,
   githublogo,
   linklogo,
-  linkicon,
   schoollogo,
   badmintonclublogo,
   climbingclublogo,

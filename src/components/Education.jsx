@@ -45,7 +45,7 @@ const Education = () => {
       <div className={layout.sectionInfo}>
         <h3 className={`${styles.heading3} mt-5 underline decoration-blue-400`}>Skills</h3>
 
-        <t className={`${styles.subtitle} text-white`}>Languages</t>
+        <p className={`${styles.subtitle} text-white`}>Languages</p>
 
         {/* Languages Cards */}
         <div className="flex justify-start mt-1">
@@ -54,7 +54,7 @@ const Education = () => {
           ))}
         </div>
 
-        <t className={`${styles.subtitle} text-white`}>Tools / Frameworks</t>
+        <p className={`${styles.subtitle} text-white`}>Tools / Frameworks</p>
 
         {/* Tools Cards */}
         <div className="flex justify-start mt-1">

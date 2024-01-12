@@ -1,5 +1,6 @@
 import styles from '../style';
-import { schoollogo, linkicon, githublogo, linklogo, rightarrowicon } from '../assets';
+import { schoollogo, githublogo, linklogo, rightarrowicon } from '../assets';
+import { Link } from 'react-router-dom';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -20,10 +21,10 @@ const Hero = () => (
       </div>
 
       <div className="mt-8 flex">
-        <a href="/Resume - Spencer Hum.pdf" download className="bg-cyan-300 hover:bg-cyan-400 text-black font-bold py-4 px-8 rounded-lg flex justify-center items-center mr-4">
+        <Link to="/Resume - Spencer Hum.pdf" download className="bg-cyan-300 hover:bg-cyan-400 text-black font-bold py-4 px-8 rounded-lg flex justify-center items-center mr-4">
           <span>Resume / CV</span>
           <img src={rightarrowicon} className="w-4 h-4 ml-6 flex" />
-        </a>
+        </Link>
         <a href="https://github.com/spencerhum04" target="_blank" rel="noopener noreferrer" className="bg-cyan-300 hover:bg-cyan-400 border border-cyan-200 hover:border-transparent py-4 px-4 rounded-lg mr-4">
           <img src={githublogo} className="w-6 h-6" />
         </a>
