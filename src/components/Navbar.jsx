@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`${styles.paddingX} w-full flex items-center fixed py-2 top-0 ${scrolled ? "bg-transparent" : "bg-gray-500"}`}>
+        <nav className={`sm:px-16 px-6 w-full flex items-center fixed py-2 top-0 ${scrolled ? "bg-transparent" : "bg-gray-500"}`}>
 
             <div className={`w-full flex justify-between items-center`}>
                 <Link to='/' className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(0, 0);}}>
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id} className={`${active === nav.title ? "text-white" : "text-zinc-400"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(nav.title)}>
-                            <Link to={`#${nav.id}`} onClick={() => { setActive(""); window.scrollTo(0, 1000);}}>
+                            <Link to={`#${nav.id}`} onClick={() => { setActive(""); window.scrollTo(0, 550);}}>
                                 {nav.title}
                             </Link>
                         </li>

@@ -15,7 +15,6 @@ const About = () => {
 
       <img src={moi} className="w-[290px] h-[386px] mt-10 mr-24" />
       <div className="absolute z-[10] right-10 top-150 w-[50%] h-[50%] rounded-full gray__gradient" />
-
     </section>
   )
 }

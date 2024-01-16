@@ -43,9 +43,8 @@ const Education = () => {
 
       {/* Skills */}
       <div className={layout.sectionInfo}>
-        <h3 className={`${styles.heading3} mt-5 underline decoration-blue-400`}>Skills</h3>
 
-        <p className={`${styles.subtitle} text-white`}>Languages</p>
+        <p className={`${styles.subtitle} text-white mt-6`}>Languages</p>
 
         {/* Languages Cards */}
         <div className="flex justify-start mt-1">

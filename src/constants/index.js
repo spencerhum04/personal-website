@@ -89,29 +89,25 @@ export const projects = [
   {
     id: "project-1",
     icon: pythonlogo,
-    title: "React",
+    title: "My Portfolio Website",
+    link: "https://github.com/spencerhum04/personal-website",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "A high-performance, responsive website using JavaScript, CSS, and HTML, showcasing various features while ensuring compatibility across various devices and screen sizes to provide a seamless experience for all users.",
   },
   {
     id: "project-2",
     icon: nodejslogo,
-    title: "NodeJS",
+    title: "Genetic Rockets",
+    link: "https://github.com/spencerhum04/Genetic-Rockets",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Rocket targeting program utilizing JavaScript, featuring a learning capability to enhance accuracy progressively while recording data regarding encountered obstacles, contributing to a more thorough comprehension of the environment.",
   },
   {
     id: "project-3",
     icon: tailwindlogo,
-    title: "Tailwind",
+    title: "Minimax Algorithm AI",
+    link: "https://github.com/spencerhum04/Minimax-Algorithm-AI",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-  {
-    id: "project-4",
-    icon: homejan,
-    title: "Personal Website",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Minimax algorithm for AI decision-making, ensuring optimal moves in a responsive and visually engaging Tic Tac Toe game showcasing real-time updates of the user interface to reflect moves and game state changes.",
   },
 ];
