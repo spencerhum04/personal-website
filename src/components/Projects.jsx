@@ -1,9 +1,10 @@
 import styles, { layout } from '../style';
+import { useState, useEffect } from 'react'
 import { projects } from '../constants';
-import { Link } from 'react-router-dom';
+import { menu } from '../assets';
 
 const ProjectCard = ({ title, link, content }) => (
-  <div className="flex flex-col items-center p-6 mb-6 mt-4 mr-5 bg-transparent border border-sky-400">
+  <div className="flex flex-col items-center p-6 mb-6 mt-4 mr-5 bg-transparent border border-sky-400 transition ease-in-out hover:bg-cyan-800 duration-1000 transform hover:translate-x-4">
     <div className={`w-[800px] h-[140px]`}>
       <p className="text-white text-[20px]">{title}</p>
       <p className="text-white text-[15px] mt-4">{content}</p>
@@ -13,19 +14,28 @@ const ProjectCard = ({ title, link, content }) => (
 )
 
 const Projects = () => {
+  const [toggle, setToggle] = useState(true);
+
+  const handleClick = () => {
+    setToggle((prev) => !prev);
+  };
+
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={`text-[25px] text-white ml-10`}>&lt;projects&gt;</h2>
-
-        {/* Projects Cards */}
-        <div className="flex flex-col ml-24 mt-1">
-          {projects.map((project,index) => (
-            <ProjectCard key={project.id} {...project} index={index} />
-          ))}
+        <div className="flex justify-center items-center">
+          <img src={menu} className={`w-5 h-5 flex transform transition ease-in-out duration-500 ${toggle ? '-rotate-90' : ''}`} onClick={handleClick} />
+          <h2 className={`text-[25px] text-white ml-6 flex`}>&lt;projects&gt;</h2>
         </div>
 
-        <h2 className={`text-[25px] text-white ml-10`}>&lt;/projects&gt;</h2>
+        {/* Toggle to Load Project Cards */}
+        <div className={`flex flex-col ml-20 mt-1 transform transition ease-in-out duration-1000 ${toggle ? 'opacity-100' : 'opacity-0'}`}>
+          {toggle && (
+            projects.map((project, index) => (
+              <ProjectCard key={project.id} {...project} index={index} />
+            ))
+          )}
+        </div>
 
       </div>
 

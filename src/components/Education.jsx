@@ -2,7 +2,7 @@ import { languages, tools } from '../constants';
 import styles, { layout } from '../style';
 
 const LanguageCard = ({ icon, title }) => (
-  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-2 mr-5 bg-blue-900">
+  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-sky-400 bg-transparent hover:scale-110 hover:bg-cyan-800 duration-500">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-white`}>
       <img src={icon} className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -15,7 +15,7 @@ const LanguageCard = ({ icon, title }) => (
 )
 
 const ToolCard = ({ icon, title }) => (
-  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-2 mr-5 bg-blue-900">
+  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-sky-400 bg-transparent bg-transparent hover:scale-110 hover:bg-cyan-800 duration-500">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-white`}>
       <img src={icon} className="w-[50%] h-[50%] object-contain" />
     </div>

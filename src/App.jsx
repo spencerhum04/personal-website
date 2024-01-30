@@ -7,9 +7,10 @@ import { Navbar, Hero, About, Education, Projects, Contact, Footer } from './com
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="bg-white w-full overflow-hidden">
+      <div className="bg-primary w-full overflow-hidden">
         <div className={`${styles.flexCenter} fixed`}>
-          <div className={`${styles.boxWidth}`}>
+          {/* <div className={`${styles.boxWidth}`}> */}
+          <div className="xl:max-w-[1280px] w-full">
             <Navbar />
           </div>
         </div>

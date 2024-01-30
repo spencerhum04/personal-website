@@ -2,21 +2,20 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import styles from '../style';
 
-import { close, menu, spencerlogo } from '../assets';
+import { close, menu, spencerlogoblue } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
-    const [scrolled, setScrolled] = useState(false);
 
 
     return (
-        <nav className={`sm:px-16 px-6 w-full flex items-center fixed py-2 top-0 ${scrolled ? "bg-transparent" : "bg-gray-500"}`}>
+        <nav className={`px-4 w-full flex items-center fixed py-2 top-0 bg-transparent`}>
 
             <div className={`w-full flex justify-between items-center`}>
                 <Link to='/' className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(0, 0);}}>
-                    <img src={spencerlogo} className="w-[64px] h-[64px] flex" />
+                    <img src={spencerlogoblue} className="w-[73px] h-[64px] flex" />
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((nav, index) => (
