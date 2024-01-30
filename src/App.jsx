@@ -9,13 +9,12 @@ const App = () => {
     <BrowserRouter>
       <div className="bg-primary w-full overflow-hidden">
         <div className={`${styles.flexCenter} fixed`}>
-          {/* <div className={`${styles.boxWidth}`}> */}
           <div className="xl:max-w-[1280px] w-full">
             <Navbar />
           </div>
         </div>
 
-        <div className={`bg-primary ${styles.flexStart}`} style={{ marginTop: '10vh' }}>
+        <div className={`bg-primary ${styles.flexStart}`} style={{ marginTop: '9vh' }}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>

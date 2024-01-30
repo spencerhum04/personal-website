@@ -27,6 +27,7 @@ import gitlogo from "./gitlogo.png"
 import sh from "./sh.png"
 import spencerlogo from "./spencerlogo.png"
 import spencerlogoblue from "./spencerlogoblue.png"
+import downarrowicon from "./downarrowicon.png"
 
 export {
   menu,
@@ -58,4 +59,5 @@ export {
   sh,
   spencerlogo,
   spencerlogoblue,
+  downarrowicon,
 };
