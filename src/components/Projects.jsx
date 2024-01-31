@@ -4,11 +4,11 @@ import { projects } from '../constants';
 import { downarrowicon } from '../assets';
 
 const ProjectCard = ({ title, link, content }) => (
-  <div className="flex flex-col items-center p-6 mt-8 mr-5 bg-transparent border border-sky-400 transition ease-in-out hover:bg-cyan-800 duration-1000 transform hover:translate-x-4">
+  <div className="flex flex-col items-center p-6 mt-8 mr-5 bg-transparent border border-purple-300 transition ease-in-out hover:bg-purple-800 duration-1000 transform hover:translate-x-4">
     <div className={`w-[800px] h-[140px]`}>
       <p className="text-white text-[20px]">{title}</p>
       <p className="text-white text-[15px] mt-4">{content}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 py-2 mt-4 text-sky-400 flex">Code</a>
+      <a href={link} target="_blank" rel="noopener noreferrer" className="hover:text-white py-2 mt-4 text-purple-300 flex">Code</a>
     </div>
   </div>
 )
@@ -25,7 +25,7 @@ const Projects = () => {
       <div className={layout.sectionInfo}>
         <div className="flex justify-center items-center">
           <img src={downarrowicon} className={`w-5 h-3 flex transform transition ease-in-out duration-500 cursor-pointer ${toggle ? '': '-rotate-90'}`} onClick={handleClick} />
-          <h2 className={`text-[25px] text-white ml-6 flex`}>&lt;projects&gt;</h2>
+          <h2 className={`text-[25px] text-purple-300 ml-6 flex`}>&lt;projects&gt;</h2>
         </div>
 
         {/* Toggle to load projects */}

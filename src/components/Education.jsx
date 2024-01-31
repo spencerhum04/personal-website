@@ -4,7 +4,7 @@ import { languages, tools } from '../constants';
 import { downarrowicon } from '../assets';
 
 const LanguageCard = ({ icon, title }) => (
-  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-sky-400 bg-transparent hover:scale-110 hover:bg-cyan-800 duration-500">
+  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-indigo-400 bg-transparent hover:scale-110 hover:bg-indigo-900 duration-500">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-white`}>
       <img src={icon} className="w-[50%] h-[50%] object-contain" alt={title} />
     </div>
@@ -17,7 +17,7 @@ const LanguageCard = ({ icon, title }) => (
 );
 
 const ToolCard = ({ icon, title }) => (
-  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-sky-400 bg-transparent bg-transparent hover:scale-110 hover:bg-cyan-800 duration-500">
+  <div className="flex flex-col items-center p-6 rounded-[20px] mb-6 mt-4 mr-5 border-[1px] border-green-300 bg-transparent bg-transparent hover:scale-110 hover:bg-green-800 duration-500">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-white`}>
       <img src={icon} className="w-[50%] h-[50%] object-contain" alt={title} />
     </div>
@@ -46,13 +46,13 @@ const Education = () => {
             onClick={handleClick}
             alt="Toggle Icon"
           />
-          <h2 className={`text-[25px] text-white ml-6 flex`}>&lt;education&gt;</h2>
+          <h2 className={`text-[25px] text-indigo-300 ml-6 flex`}>&lt;education&gt;</h2>
         </div>
 
         {/* Toggle to load education*/}
         {toggle && (
           <div className="ml-20">
-            <p className={`${styles.paragraph} text-white font-extrabold text-2xl mt-6`}>Queen's University of Computing</p>
+            <p className={`${styles.paragraph} text-indigo-300 font-extrabold mt-6`}>Queen's University of Computing</p>
             <div className="flex flex-wrap items-center">
               <a
                 href="https://www.cs.queensu.ca/undergraduate/programs/specializations/software-design.php"
@@ -62,16 +62,16 @@ const Education = () => {
               >
                 Specialization: Software Design
               </a>
-              <p className={`${styles.paragraph} text-white mt-5`}>September 2022 - Present</p>
+              <p className={`${styles.paragraph} text-indigo-300 mt-5`}>September 2022 - Present</p>
             </div>
 
-            <p className={`${styles.paragraph} max-w-full flex text-white mt-5`}>
+            <p className={`${styles.paragraph} max-w-full flex text-indigo-300 mt-5`}>
               Software Design is a program that looks to push the boundaries of computer systems beyond their current limits. Engaging in hands-on projects and coursework, I am gaining an in-depth understanding of software principles, programming languages, and experience in developing software applications.
             </p>
 
             {/* Skills */}
             <div className={layout.sectionInfo}>
-              <p className={`${styles.subtitle} text-white mt-6`}>Languages</p>
+              <p className={`${styles.subtitle} text-indigo-400 mt-6`}>Languages</p>
 
               {/* Languages Cards */}
               <div className="flex justify-start mt-1">
@@ -80,7 +80,7 @@ const Education = () => {
                 ))}
               </div>
 
-              <p className={`${styles.subtitle} text-white`}>Tools / Frameworks</p>
+              <p className={`${styles.subtitle} text-green-300`}>Tools / Frameworks</p>
 
               {/* Tools Cards */}
               <div className="flex justify-start mt-1">
