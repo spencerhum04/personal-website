@@ -1,4 +1,4 @@
-import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, homejan, bashlogo, gitlogo  } from "../assets";
+import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, bashlogo, gitlogo  } from "../assets";
 
 export const navLinks = [
   {

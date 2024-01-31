@@ -1,6 +1,6 @@
 import styles, { layout } from '../style';
 import { useState } from 'react'
-import { badmintonclublogo, climbingclublogo, downarrowicon, moi, rightarrowicon, linklogo, githublogo, mirror } from '../assets';
+import { downarrowicon, rightarrowicon, linklogo, githublogo, mirror } from '../assets';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -14,8 +14,8 @@ const About = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <div className="flex justify-center items-center">
-          <img src={downarrowicon} className={`w-5 h-3 flex transform transition ease-in-out duration-500 cursor-pointer ${toggle ? '' : '-rotate-90'}`} onClick={handleClick} />
-          <h2 className={`text-[25px] text-gray-300 ml-6 flex`}>&lt;about&gt;</h2>
+          <img src={downarrowicon} className={`w-5 h-3 flex transform transition ease-in-out duration-500 cursor-pointer mt-28 ${toggle ? '' : '-rotate-90'}`} onClick={handleClick} />
+          <h2 className={`text-[25px] text-gray-300 ml-6 flex mt-28`}>&lt;about&gt;</h2>
         </div>
 
         {/* Toggle to load about */}

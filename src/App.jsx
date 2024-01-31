@@ -14,7 +14,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className={`bg-gray-900 ${styles.flexStart}`} style={{ marginTop: '9vh' }}>
+        <div className={`bg-gray-900 ${styles.flexStart}`} style={{ marginTop: '25vh' }}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>

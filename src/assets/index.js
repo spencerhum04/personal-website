@@ -21,7 +21,6 @@ import reactlogo from "./reactlogo.png"
 import nodejslogo from "./nodejslogo.png"
 import tailwindlogo from "./tailwindlogo.png"
 import linuxlogo from "./linuxlogo.png"
-import homejan from "./homejan.png"
 import bashlogo from "./bashlogo.png"
 import gitlogo from "./gitlogo.png"
 import sh from "./sh.png"
@@ -54,7 +53,6 @@ export {
   nodejslogo,
   tailwindlogo,
   linuxlogo,
-  homejan,
   bashlogo,
   gitlogo,
   sh,

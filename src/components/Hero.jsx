@@ -28,16 +28,17 @@ const Hero = () => {
       }
 
       iteration += 1 / 3;
-    }, 100);
+    }, 30);
   };
 
   useEffect(() => {
     const h1Element = h1Ref.current;
 
+    // Animation begins as soon as the website loads
     if (h1Element) {
-      startTextAnimation(); // Start animation automatically
+      startTextAnimation();
     }
-  }, []); // Removed [interval] from the dependencies array
+  }, []);
 
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -45,7 +46,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full mt-3">
           <h1
             ref={h1Ref}
-            className="flex-1 font-mono font-black ss:text-[100px] text-[52px] text-white ss:leading-[100px] leading-[75px] flex justify-center items-center h-screen"
+            className="flex-1 font-mono font-black ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] flex justify-center mt-20"
             data-value="SPENCER HUM"
           >
           </h1>

@@ -24,7 +24,7 @@ const Projects = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <div className="flex justify-center items-center">
-          <img src={downarrowicon} className={`w-5 h-3 flex transform transition ease-in-out duration-500 cursor-pointer ${toggle ? '': '-rotate-90'}`} onClick={handleClick} />
+          <img src={downarrowicon} className={`w-5 h-3 flex transform transition ease-in-out duration-300 cursor-pointer ${toggle ? '': '-rotate-90'}`} onClick={handleClick} />
           <h2 className={`text-[25px] text-purple-300 ml-6 flex`}>&lt;projects&gt;</h2>
         </div>
 

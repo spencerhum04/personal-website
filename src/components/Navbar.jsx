@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to='/' className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(0, 0);}}>
                     <img src={spencerlogoblue} className="w-[73px] h-[64px] flex" />
                 </Link>
-                <ul className="list-none hidden sm:flex flex-row gap-10">
+                {/* <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id} className={`${active === nav.title ? "text-white" : "text-zinc-400"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(nav.title)}>
                             <Link to={`#${nav.id}`} onClick={() => { setActive(""); window.scrollTo(0, 550);}}>
@@ -41,7 +41,7 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
 
         </nav>
