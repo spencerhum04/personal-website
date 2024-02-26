@@ -65,7 +65,7 @@ const Education = () => {
               <p className={`${styles.paragraph} text-indigo-300 mt-5`}>September 2022 - Present</p>
             </div>
 
-            <p className={`${styles.paragraph} max-w-full flex text-indigo-300 mt-5`}>
+            <p className={`${styles.paragraph} max-w-[1100px] flex text-indigo-300 mt-5`}>
               Software Design is a program that looks to push the boundaries of computer systems beyond their current limits. Engaging in hands-on projects and coursework, I am gaining an in-depth understanding of software principles, programming languages, and experience in developing software applications.
             </p>
 
