@@ -47,7 +47,7 @@ const Navbar = () => {
                     <div className={`${toggle ? 'flex' : 'hidden'} p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-[16px] sidebar`}>
                         <ul className="list-none flex flex-col justify-end items-center flex-1">
                             {navLinks.map((nav, index) => (
-                                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-14'} text-white`}>
+                                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-12'} text-white`}>
                                     <a href={`#${nav.id}`}>
                                         {nav.title}
                                     </a>

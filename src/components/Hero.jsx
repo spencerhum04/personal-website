@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styles from '../style';
-import { pythonlogo } from '../assets';
+import { comp } from '../assets';
 
 const Hero = () => {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -51,7 +51,7 @@ const Hero = () => {
             data-value="SPENCER HUM"
           >
           </h1>
-          <img src={pythonlogo} className="w-32 h-32 mt-20" />
+          <img src={comp} className="w-495 h-286 mt-20" />
         </div>
       </div>
     </section>

@@ -28,6 +28,8 @@ import spencerlogo from "./spencerlogo.png"
 import spencerlogoblue from "./spencerlogoblue.png"
 import downarrowicon from "./downarrowicon.png"
 import mirror from "./mirror.png"
+import comp from "./comp.png"
+import scholar from "./scholar.jpg"
 
 export {
   menu,
@@ -60,4 +62,6 @@ export {
   spencerlogoblue,
   downarrowicon,
   mirror,
+  comp,
+  scholar,
 };

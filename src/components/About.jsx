@@ -1,6 +1,6 @@
 import styles, { layout } from '../style';
 import { useState } from 'react'
-import { downarrowicon, rightarrowicon, linklogo, githublogo, mirror } from '../assets';
+import { downarrowicon, rightarrowicon, linklogo, githublogo, mirror, scholar } from '../assets';
 
 const About = () => {
   const [toggle, setToggle] = useState(true);
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <img src={mirror} className="w-[310px] h-[350px] ml-16" />
+            <img src={scholar} className="w-[275x] h-[350px] ml-16 border-solid" />
           </div>
         )}
       </div>
