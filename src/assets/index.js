@@ -30,6 +30,7 @@ import downarrowicon from "./downarrowicon.png"
 import mirror from "./mirror.png"
 import comp from "./comp.png"
 import scholar from "./scholar.jpg"
+import placeholder from "./placeholder.png"
 
 export {
   menu,
@@ -64,4 +65,5 @@ export {
   mirror,
   comp,
   scholar,
+  placeholder,
 };
