@@ -35,7 +35,7 @@ const ProjectCard = ({ title, link, content, modaltitle, modaldesc, modalimg }) 
       </div>
 
       {modalOpen && (
-        <div className="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-screen">
+        <div className="overflow-y-auto overflow-x-hidden fixed z-50 flex justify-center items-start w-full top-0 h-screen">
           <div className="relative p-4 w-full max-w-2xl">
             {/* Modal content goes here */}
             <div className="relative bg-purple-900 rounded-lg shadow border border-purple-500">

@@ -4,18 +4,22 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+    scroll: {x:0, y:825},
   },
   {
     id: "education",
     title: "Education",
+    scroll: {x:0, y:1370},
   },
   {
     id: "projects",
     title: "Projects",
+    scroll: {x:0, y:2205},
   },
   {
     id: "contact",
     title: "Contact",
+    scroll: {x:0, y:5000},
   },
 ];
 

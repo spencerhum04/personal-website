@@ -23,9 +23,9 @@ const Navbar = () => {
                         <ul className="list-none flex flex-col justify-end items-center flex-1">
                             {navLinks.map((nav, index) => (
                                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-12'} text-white`}>
-                                    <a href={`#${nav.id}`}>
+                                    <Link to='/' className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(nav.scroll.x, nav.scroll.y); }}>
                                         {nav.title}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
