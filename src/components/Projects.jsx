@@ -28,9 +28,9 @@ const ProjectCard = ({ title, link, content, modaltitle, modaldesc, modalimg }) 
         style={{ cursor: 'pointer' }}
       >
         <div className={`w-[800px] h-[140px]`}>
-          <p className="text-white text-[20px]">{title}</p>
+          <p className="text-white text-[22px]">{title}</p>
           <p className="text-white text-[15px] mt-4">{content}</p>
-          <p className="text-purple-300 text-[15px] mt-4">Click for details</p>
+          <p className="text-purple-300 text-[18px] mt-4">Click for details</p>
         </div>
       </div>
 

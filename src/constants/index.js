@@ -93,11 +93,11 @@ export const projects = [
   {
     id: "project-1",
     icon: pythonlogo,
-    title: "My Portfolio Website",
+    title: "Portfolio Website",
     link: "https://github.com/spencerhum04/personal-website",
     content:
       "A high-performance, responsive website using JavaScript, CSS, and HTML, showcasing various features while ensuring compatibility across various devices and screen sizes to provide a seamless experience for all users.",
-    modaltitle: "My Portfolio Website",
+    modaltitle: "Portfolio Website",
     modaldesc: "Developed a personalized website that uses JavaScript, CSS, and HTML to highlight various features. UI/UX designs and patterns were seamlessly integrated using Tailwind CSS to create an aesthetically pleasing and user-friendly experience. Ensured the website's responsiveness and compatibility with various devices and screen sizes, resulting in a consistent experience for all users. Used HTML, CSS, and JavaScript to create a dynamic and engaging platform that effectively highlighted personal projects and accomplishments.",
     modalimg: websitevisual,
   },
