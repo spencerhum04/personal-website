@@ -1,4 +1,4 @@
-import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, bashlogo, gitlogo, placeholder } from "../assets";
+import { javascriptlogo, clogo, javalogo, pythonlogo, reactlogo, htmllogo, csslogo, nodejslogo, tailwindlogo, linuxlogo, bashlogo, gitlogo, websitevisual, geneticvisual, minimaxvisual } from "../assets";
 
 export const navLinks = [
   {
@@ -99,7 +99,7 @@ export const projects = [
       "A high-performance, responsive website using JavaScript, CSS, and HTML, showcasing various features while ensuring compatibility across various devices and screen sizes to provide a seamless experience for all users.",
     modaltitle: "My Portfolio Website",
     modaldesc: "Developed a personalized website that uses JavaScript, CSS, and HTML to highlight various features. UI/UX designs and patterns were seamlessly integrated using Tailwind CSS to create an aesthetically pleasing and user-friendly experience. Ensured the website's responsiveness and compatibility with various devices and screen sizes, resulting in a consistent experience for all users. Used HTML, CSS, and JavaScript to create a dynamic and engaging platform that effectively highlighted personal projects and accomplishments.",
-    modalimg: placeholder,
+    modalimg: websitevisual,
   },
   {
     id: "project-2",
@@ -110,7 +110,7 @@ export const projects = [
       "Rocket targeting program utilizing JavaScript, featuring a learning capability to enhance accuracy progressively while recording data regarding encountered obstacles, contributing to a more thorough comprehension of the environment.",
     modaltitle: "Genetic Rockets",
     modaldesc: "Created a rocket targeting program in JavaScript with a learning capability to gradually improve accuracy. Integrated functions for creating and using variable operands, allowing for dynamic adjustments to increase flexibility. Implemented a genetic pattern that allows rockets to learn and improve performance based on previous successes. In addition, functionalities for recording data on encountered obstacles were added, resulting in a more thorough understanding of the environment.",
-    modalimg: placeholder,
+    modalimg: geneticvisual,
   },
   {
     id: "project-3",
@@ -121,6 +121,6 @@ export const projects = [
       "Minimax algorithm for AI decision-making, ensuring optimal moves in a responsive and visually engaging Tic Tac Toe game showcasing real-time updates of the user interface to reflect moves and game state changes.",
     modaltitle: "Minimax Algorithm AI",
     modaldesc: "A minimax algorithm for AI decision-making was integrated into a responsive and visually appealing Tic Tac Toe game. Ensured optimal movements, resulting in a challenging experience. Introduced flexible game modes that support both player versus player (PvP) and AI interactions. The user interface can now be updated in real time, ensuring that moves and game state changes are reflected seamlessly for an immersive gaming experience.",
-    modalimg: placeholder,
+    modalimg: minimaxvisual,
   },
 ];

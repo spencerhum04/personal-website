@@ -48,8 +48,8 @@ const ProjectCard = ({ title, link, content, modaltitle, modaldesc, modalimg }) 
                   <img src={close} alt="menu" className="w-[20px] h-[20px] object-contain cursor-pointer" />
                 </button>
               </div>
-              <div className="p-4 md:p-5 items-center">
-                <img src={modalimg} className="border rounded-lg mb-4" />
+              <div className="p-4 md:p-5">
+                <img src={modalimg} className="border rounded-lg mb-4 w-[600px] h-[370px]" />
                 <div className="text-white ml-2">{modaldesc}</div>
               </div>
               <div className="flex items-center p-4 md:p-5 border-t">
